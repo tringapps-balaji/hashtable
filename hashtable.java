@@ -20,8 +20,8 @@ class hashtable {
         Scanner sc = new Scanner(System.in);
         System.out.println(" Welcome to Contact List ");
 
-        while (choice!=5) {
-            System.out.println("\n 1. Add contact \n 2. Delete contact \n 3. Search Contact \n 4. Display contact \n 5. Exit");
+        while (choice<=4) {
+            System.out.println("\n 1. Add contact \n 2. Delete contact \n 3. Search Contact \n 4. Display contact ");
             System.out.println("Enter the choice : ");
             choice = sc.nextInt();
             System.out.println();
